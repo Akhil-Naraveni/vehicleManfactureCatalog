@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98vw;
+    background-color: rgb(214, 227, 223);
+    text-align: center;
+    padding: 40px;
+}
+
+.searchAndFil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding-right: 20px;
+}
+input{
+    margin-left: 8px;
+}
+.filtercont{
+    margin-right: 6em;
+}
+table{
+    width: 90vw;
+}
+table,
+th, tr
+{
+border: 1px solid;
+border-collapse: collapse;
+width: 90vw;
+background-color: rgb(226, 229, 231);
+height: 24px;
+margin: 4px;
+padding: 4px;
+}
+th{
+    background-color: rgb(2, 5, 77);
+    padding: 8px;
+    font-size: 22px;
+    color: white;
+}
+
+tbody td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 8px;
+    font-size: 18px;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+.cardContainer{
+    width: 40vw;
+    height: 45vh;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    background-color: white;
+    border: 0px solid lightgrey;
+    padding: 14px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    opacity: 2;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardContainer > button{
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(134, 151, 205);
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    
+}
